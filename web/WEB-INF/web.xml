@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+
+    <servlet>
+        <servlet-name>Checking</servlet-name>
+        <servlet-class>Checking</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Checking</servlet-name>
+        <url-pattern>/Page_1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletWelcome</servlet-name>
+        <servlet-class>ServletWelcome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletWelcome</servlet-name>
+        <url-pattern>/Welcome_Page</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAdmin</servlet-name>
+        <servlet-class>ServletAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAdmin</servlet-name>
+        <url-pattern>/Admin_Page</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddOperator</servlet-name>
+        <servlet-class>AddOperator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddOperator</servlet-name>
+        <url-pattern>/AddOperator</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveOperator</servlet-name>
+        <servlet-class>RemoveOperator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveOperator</servlet-name>
+        <url-pattern>/RemoveOperator</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletOperator</servlet-name>
+        <servlet-class>ServletOperator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletOperator</servlet-name>
+        <url-pattern>/Operator_Page</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletReportViewUser</servlet-name>
+        <servlet-class>ServletReportViewUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletReportViewUser</servlet-name>
+        <url-pattern>/ServletReportViewUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddSparePart</servlet-name>
+        <servlet-class>AddSparePart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddSparePart</servlet-name>
+        <url-pattern>/AddSparePart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveSparePart</servlet-name>
+        <servlet-class>RemoveSparePart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveSparePart</servlet-name>
+    <url-pattern>/RemoveSparePart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+</web-app>
